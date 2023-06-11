@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+    <title>Drag & Drop</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="card-inner">
+                <h1>Container 1</h1>
+                <div class="container" id="container-1">
+
+                    <img draggable="true" class="item"
+                        src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?cs=srgb&dl=pexels-lukas-574071.jpg&fm=jpg"
+                        alt="">
+                    <img draggable="true" class="item"
+                        src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww&w=1000&q=80"
+                        alt="">
+                    <img draggable="true" class="item"
+                        src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_640.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="card-inner">
+                <h1>container 2</h1>
+                <div class="container" id="container-2">
+                </div>
+            </div>
+        </div>
+
+        <button class="btn" id="resetBtn">
+            <span class="icon">
+                <i class="fa-solid fa-trash"></i>
+            </span>
+            <span class="text">RESET</span>
+        </button>
+    </div>
+</body>
+
+</html>
